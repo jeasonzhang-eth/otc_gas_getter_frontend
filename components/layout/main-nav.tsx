@@ -80,7 +80,7 @@ function MainNavMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <LinkComponent href="https://docs.turboeth.xyz/overview">
+          <LinkComponent href="https://github.com/jeasonzhang-eth/otc_gas_getter_frontend">
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <span>Documentation</span>
             </NavigationMenuLink>

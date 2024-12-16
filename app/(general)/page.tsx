@@ -26,7 +26,7 @@ export default function HomePage() {
           height={80}
           className="h-20 w-20 rounded-2xl"
         />
-        <PageHeaderHeading>Build Web3 in Turbo&nbsp;Mode</PageHeaderHeading>
+        <PageHeaderHeading>Make ETH Transfer Affordable</PageHeaderHeading>
         <PageHeaderDescription>{siteConfig.description}</PageHeaderDescription>
         <PageHeaderCTA>
           <Link
@@ -60,15 +60,15 @@ export default function HomePage() {
             Discord
           </Link>
         </PageHeaderCTA>
-        <PageHeaderCTA>
-          <CopyButton value="pnpm create turbo-eth@latest">
-            <span className="text-xs sm:text-base">
-              pnpm create turbo-eth@latest
-            </span>
-          </CopyButton>
-        </PageHeaderCTA>
+        {/*<PageHeaderCTA>*/}
+        {/*  <CopyButton value="pnpm create turbo-eth@latest">*/}
+        {/*    <span className="text-xs sm:text-base">*/}
+        {/*      pnpm create turbo-eth@latest*/}
+        {/*    </span>*/}
+        {/*  </CopyButton>*/}
+        {/*</PageHeaderCTA>*/}
       </PageHeader>
-      <ExampleDemos />
+      {/*<ExampleDemos />*/}
     </div>
   )
 }

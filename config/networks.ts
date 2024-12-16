@@ -16,6 +16,7 @@ import {
   polygon,
   polygonMumbai,
   sepolia,
+  mantle
 } from "wagmi/chains"
 
 export const chains = [
@@ -34,10 +35,12 @@ export const chains = [
   gnosisChiado,
   optimismSepolia,
   arbitrumSepolia,
+  mantle,
 ] as const
 
 export const transports = {
   [mainnet.id]: http(),
+  [mantle.id]: http(),
   [sepolia.id]: http(),
   [polygonMumbai.id]: http(),
   [gnosisChiado.id]: http(),

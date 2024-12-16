@@ -18,17 +18,18 @@ interface SiteConfig {
 export const SITE_CANONICAL = "https://turboeth.xyz"
 
 export const siteConfig: SiteConfig = {
-  name: "TurboETH",
-  title: "TurboETH - Web3 App Template",
+  name: "OTCGasGetter",
+  title: "OTCGasGetter - The simplest and cheapest decentralized application for\n" +
+      "obtaining Ethereum ETH gas, based on optimism and fraud detection.",
   emoji: "⚡",
   description:
-    "Start building full-stack Web3 applications in minutes with TurboETH.",
+    "The safest, cheapest, and fastest ETH Gas acquisition DApp.",
   localeDefault: "en",
   links: {
-    docs: "https://docs.turboeth.xyz/overview",
-    discord: "https://discord.gg/U4jy7Xfh76",
-    twitter: "https://twitter.com/district_labs",
-    github: "https://github.com/turbo-eth/template-web3-app",
+    docs: "https://github.com/jeasonzhang-eth/otc_gas_getter_frontend",
+    discord: "https://discord.gg/GqBauEjR",
+    twitter: "https://x.com/jeason52",
+    github: "https://github.com/jeasonzhang-eth/otc_gas_getter_frontend",
   },
 }
 
