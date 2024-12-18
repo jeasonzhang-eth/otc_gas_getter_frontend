@@ -30,20 +30,20 @@ export const GeneralInfo = () => {
   return (
     <motion.div
       animate="show"
-      className="flex items-center justify-center py-4"
+      className="flex justify-center items-center py-4"
       initial="hidden"
       variants={FADE_DOWN_ANIMATION_VARIANTS}
     >
-      <div className="rounded border p-5">
+      <div className="w-full rounded border p-5">
         <h3 className="text-lg">Select Chain</h3>
-        <div className="mb-4 flex items-center">
-          <div className="flex w-80 flex-col ">
+        <div className="flex items-center mb-4">
+          <div className="flex w-60 flex-col">
             <Select
               value={chain?.id.toString()}
               onValueChange={(e) => switchChain?.({ chainId: Number(e) })}
             >
               <SelectTrigger>
-                <SelectValue placeholder="Select chain" />
+                <SelectValue placeholder="Select market" />
               </SelectTrigger>
               <SelectContent>
                 {marketsData.map((market, index) => (
@@ -83,7 +83,7 @@ export const GeneralInfo = () => {
               />
             </div>
             <Button 
-              className="mt-6 w-full"
+              className="w-full mt-6"
               onClick={() => {
                 console.log('Send button clicked')
               }}
@@ -92,29 +92,6 @@ export const GeneralInfo = () => {
             </Button>
           </div>
         </div>
-        {/*<div className="flex justify-between">*/}
-        {/*  <div className="mr-3 text-muted-foreground">*/}
-        {/*    <h3 className="mb-2">Net Worth</h3>*/}
-        {/*    <p className="font-bold text-foreground">*/}
-        {/*      ${" "}*/}
-        {/*      {balanceInUsd > 0*/}
-        {/*        ? (balanceInUsd - totalDebtInUsd).toFixed(2)*/}
-        {/*        : "0"}*/}
-        {/*    </p>*/}
-        {/*  </div>*/}
-        {/*  <div className="mr-3 text-muted-foreground">*/}
-        {/*    <h3 className="mb-2">Net APY</h3>*/}
-        {/*    <p className="font-bold text-foreground">*/}
-        {/*      {balanceInUsd > 0 ? <>{averageNetApy.toFixed(2)}%</> : "—"}*/}
-        {/*    </p>*/}
-        {/*  </div>*/}
-        {/*  {totalDebtInUsd > 0 && (*/}
-        {/*    <div className="mr-3 text-muted-foreground">*/}
-        {/*      <h3 className="mb-2">Health Factor</h3>*/}
-        {/*      <HealthFactor value={healthFactor} />*/}
-        {/*    </div>*/}
-        {/*  )}*/}
-        {/*</div>*/}
       </div>
     </motion.div>
   )

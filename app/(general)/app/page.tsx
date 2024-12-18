@@ -56,7 +56,7 @@ export default function AavePage() {
         {/*  </Link>*/}
         {/*</PageHeaderCTA>*/}
       </PageHeader>
-      <PageSection className="pb-8 flex justify-center w-full">
+      <PageSection className="flex w-full justify-center pb-8">
           <GeneralInfo />
           {/* <IsWalletConnected> */}
           {/*<div className="flex w-full max-w-screen-lg flex-col gap-y-8">*/}
