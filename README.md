@@ -1,14 +1,13 @@
-![image](https://user-images.githubusercontent.com/3408362/230732083-1c98e451-08af-41c2-b522-126370e8c6a5.png)
+[//]: # (![image]&#40;https://github.com/jeasonzhang-eth/OTCGasGetter/blob/main/OTC%20logo.jpeg&#41;)
 
-# ⚡ TurboETH - Web3 App Starter Kit
+# ⚡ OTCGasGetter - Make ETH Transfer Affordable
 
 ![CI](https://github.com/turbo-eth/template-web3-app/actions/workflows/ci.yml/badge.svg)
 ![TS](https://badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
-Web3 App Template built using Next.js, RainbowKit, Tailwind, Sign-In With Ethereum, and more.
+The simplest and cheapest decentralized application for obtaining Ethereum ETH gas, based on optimism and fraud detection.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fturbo-eth%2Ftemplate-web3-app&project-name=TurboETH&repository-name=turbo-eth&demo-title=TurboETH&env=NEXTAUTH_SECRET,DATABASE_URL&envDescription=How%20to%20get%20these%20env%20variables%3A&envLink=https%3A%2F%2Fgithub.com%2Fturbo-eth%2Ftemplate-web3-app%2Fblob%integrations%2F.env.example)
 
 ### [Documentation](https://docs.turboeth.xyz)
 
@@ -75,54 +74,9 @@ The [ui.shadcn.com](https://ui.shadcn.com) components are included in the `/comp
 
 # 💻 Developer Experience
 
-### 🐕 What is husky
 
-Husky improves your git commits.
 
-You can use it to lint your commit messages, run tests, lint code, etc... when you commit or push. Husky supports all Git hooks.
 
-#### 🪝 Hooks
-
-- pre-commit: lint app codebase
-- commit-msg: apply commintlint
-
-### 📋 What is commitlint
-
-commitlint checks if your commit messages meet the [conventional commit format](https://conventionalcommits.org).
-
-In general the pattern mostly looks like this:
-
-```sh
-type(scope?): subject  #scope is optional; multiple scopes are supported (current delimiter options: "/", "\" and ",")
-```
-
-Real world examples can look like this:
-
-```
-chore: run tests on travis ci
-```
-
-```
-fix(server): send cors headers
-```
-
-```
-feat(blog): add comment section
-```
-
-Common types according to [commitlint-config-conventional (based on the Angular convention)](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional#type-enum) can be:
-
-- build
-- chore
-- ci
-- docs
-- feat
-- fix
-- perf
-- refactor
-- revert
-- style
-- test
 
 # Acknowledgements
 

@@ -35,7 +35,12 @@ export const chains = [
   gnosisChiado,
   optimismSepolia,
   arbitrumSepolia,
-  mantle,
+  {
+    ...mantle,
+    // 添加自定义图标配置
+    iconUrl: '/integrations/aave/logos/mantle.png',
+    iconBackground: '#000000',
+  },
 ] as const
 
 export const transports = {

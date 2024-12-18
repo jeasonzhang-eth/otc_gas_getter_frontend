@@ -86,6 +86,13 @@ function MainNavMenu() {
             </NavigationMenuLink>
           </LinkComponent>
         </NavigationMenuItem>
+        <NavigationMenuItem>
+          <LinkComponent href="/app">
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              <span>Launch App</span>
+            </NavigationMenuLink>
+          </LinkComponent>
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   )

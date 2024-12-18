@@ -23,7 +23,7 @@ export function Footer({ className, ...props }: HTMLAttributes<HTMLElement>) {
         rel="noreferrer noopenner"
         className={cn(buttonVariants({ variant: "link", size: "sm" }))}
       >
-        Built by District Labs
+        Fork from &nbsp; <b>TurboETH</b>, Built by District Labs
       </Link>
       <div className="mt-2 flex items-center space-x-2">
         <LinkComponent href={`${siteConfig.links.github}`}>

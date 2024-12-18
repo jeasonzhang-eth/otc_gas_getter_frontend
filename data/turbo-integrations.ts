@@ -160,6 +160,15 @@ export const turboIntegrations = {
     imgDark: "/integrations/aave.png",
     category: "protocols",
   },
+  otc: {
+    name: "OTCGasGetter",
+    href: "/app",
+    url: "https://github.com/jeasonzhang-eth/otc_gas_getter_frontend",
+    description: "The simplest and cheapest decentralized application for obtaining Ethereum ETH gas, based on optimism and fraud detection.",
+    imgLight: "/logo-dark.png",
+    imgDark: "/logo-light.png",
+    category: "protocols",
+  },
   arweave: {
     name: "Arweave",
     href: "/integration/arweave",
